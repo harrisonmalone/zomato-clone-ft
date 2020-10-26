@@ -1,0 +1,12 @@
+.new-restaurant-form {
+  display: flex;
+  flex-direction: column;
+  label {
+    margin: 10px 0px;
+  }
+  #submit {
+    display: block;
+    width: 200px;
+    margin: 10px 0px;
+  }
+}

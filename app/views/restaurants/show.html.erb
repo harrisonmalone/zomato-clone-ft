@@ -1,7 +1,9 @@
 <div>
   <h1><%= @restaurant.name %></h1>
   <h3>Opening hours: <%= @restaurant.opening_hours %></h3>
-  <h3>Address: <%= @restaurant.address.street %>, <%= @restaurant.address.suburb %></h3>
+  <% if @restaurant.address %>
+    <h3>Address: <%= @restaurant.address.street %>, <%= @restaurant.address.suburb %></h3>
+  <% end %>
 </div>
 <%= link_to "Back", restaurants_path %>
 

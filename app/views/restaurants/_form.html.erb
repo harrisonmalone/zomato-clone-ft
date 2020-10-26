@@ -1,0 +1,13 @@
+<%= form_with(model: restaurant, class: "new-restaurant-form") do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+  <%= f.label :opening_hours %>
+  <%= f.text_field :opening_hours %>  
+  <%= f.label :contact_number %>
+  <%= f.text_field :contact_number %>  
+  <%= f.label :cuisine %>
+  <%= f.text_field :cuisine %>  
+  <%= f.label :cost_for_2 %>
+  <%= f.text_field :cost_for_2 %>  
+  <%= f.submit id: "submit" %>
+<% end %>
