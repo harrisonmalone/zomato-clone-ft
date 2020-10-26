@@ -1,0 +1,17 @@
+<div>
+  <h1><%= @restaurant.name %></h1>
+  <h3>Opening hours: <%= @restaurant.opening_hours %></h3>
+  <h3>Address: <%= @restaurant.address.street %>, <%= @restaurant.address.suburb %></h3>
+</div>
+<%= link_to "Back", restaurants_path %>
+
+<hr>
+
+<h2>Reviews</h2>
+<% @restaurant.reviews.each do |review| %>
+  <div>
+    <h3>Id: <%= review.id %></h3>
+    <h3>Description: <%= review.description %></h3>
+    <h3>Stars: <%= "⭐️" * review.stars %></h3>
+  </div>
+<% end %>
