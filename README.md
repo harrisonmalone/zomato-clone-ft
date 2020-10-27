@@ -1,24 +1,10 @@
-# README
+# Zomato clone
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## User stories
+- As a user I can see all restaurants displayed on index
+- As a user I can create and update my restaurants
+- As a user I can visit a restaurants show page or navigate to that page from the index
+- As a user I can see the restaurant reviews
+- As a user I can search for a restaurant by name
+- As a user I can like a restaurant
+- As a user I can create a restaurant and im the only one that can delete it
